@@ -1,0 +1,7 @@
+[package]
+name = "c_f_temperature_converter"
+version = "0.1.0"
+authors = ["valuthy"]
+edition = "2018"
+
+[dependencies]
