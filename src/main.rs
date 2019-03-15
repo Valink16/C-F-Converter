@@ -32,7 +32,7 @@ fn main() {
 }
 
 fn ask_bin(msg: String, answ: (char, char)) -> bool {
-    // Used to ask questions which only 2 answers possible, answers must be char type
+    // Used to ask questions which only have 2 possible answers, answers must be char type
     // Returns true if user input equals first answer, false if user input equals second answer
     loop {
         println!("{}\nPlease enter '{}' or '{}': ", msg, answ.0, answ.1);
